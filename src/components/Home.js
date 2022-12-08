@@ -2,6 +2,7 @@ import React from 'react';
 import { UserContext } from '../context/userContext';
 
 // do not change this component
+
 export const Home = () => {
     const {greeting} = React.useContext(UserContext)
 
